@@ -1,0 +1,83 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3),rgb(0,0,0,0.3));
+    /* background-color: black; */
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px 30px ;
+    position: fixed;
+    z-index: 99;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dfdfdf;
+    text-indent: 30px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+
+}
+
+nav ul li button{
+   width: 80px;
+   height: 30px;
+   border: none;
+   
+}
+
+section{
+    /* margin-top: -20px; */
+    /* z-index: 0; */
+}
+ .img1{
+    height: 600px;
+} 
+
+.con{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 99;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.para1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.para2{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btn{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+}
