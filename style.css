@@ -26,6 +26,7 @@ input{
     border: none;
     background-color: #dfdfdf;
     text-indent: 30px;
+    z-index:200;
 
 }
 
@@ -42,6 +43,9 @@ nav ul li button{
 }
 
 section{
+    height:100vh;
+    width:100%;
+    position:relative;
     /* margin-top: -20px; */
     /* z-index: 0; */
 }
